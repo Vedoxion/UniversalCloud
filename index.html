@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universal Cloud - Premium Game Server Hosting</title>
+    <meta name="description" content="Universal Cloud: lightning-fast, black-themed, DDoS-protected game server hosting." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bg: "#030307",
+              surface: "#0a0b12",
+              card: "#10131f",
+              line: "#1e2233",
+              primary: "#7b8bff",
+              accent: "#49d8ff"
+            },
+            fontFamily: {
+              sans: ["Inter", "system-ui", "sans-serif"],
+              display: ["Sora", "Inter", "sans-serif"],
+              mono: ["JetBrains Mono", "ui-monospace", "monospace"]
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-bg text-slate-100 font-sans">
+    <div class="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_20%_0%,rgba(76,106,255,0.22),transparent_28%),radial-gradient(circle_at_100%_15%,rgba(73,216,255,0.14),transparent_24%),linear-gradient(#030307,#030307)]"></div>
+
+    <header class="sticky top-5 z-50">
+      <div class="mx-auto flex w-[94%] max-w-7xl items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-5 py-3 shadow-2xl shadow-black/50 backdrop-blur-2xl">
+        <a href="#" class="font-display text-lg font-semibold tracking-wide">Universal<span class="text-primary">Cloud</span></a>
+        <nav class="hidden items-center gap-7 text-sm text-slate-300 md:flex">
+          <a href="#features" class="transition hover:text-white">Features</a>
+          <a href="#terminal" class="transition hover:text-white">Terminal</a>
+          <a href="#pricing" class="transition hover:text-white">Pricing</a>
+          <a href="#faq" class="transition hover:text-white">FAQ</a>
+        </nav>
+        <a href="https://discord.gg" target="_blank" rel="noreferrer" class="rounded-lg border border-primary/60 bg-primary/10 px-4 py-2 text-sm font-semibold text-indigo-100 transition hover:bg-primary/25">Deploy Server</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="mx-auto grid w-[94%] max-w-7xl gap-10 pb-16 pt-24 md:grid-cols-[1.1fr_.9fr] md:pt-28">
+        <div>
+          <p class="inline-flex rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-accent">Black Edition Infrastructure</p>
+          <h1 class="mt-6 font-display text-4xl font-bold leading-tight md:text-6xl">Host game servers with <span class="text-primary">elite performance</span>.</h1>
+          <p class="mt-5 max-w-xl text-slate-300">Built for competitive communities with ultra-low latency routing, powerful CPUs, and resilient DDoS protection.</p>
+          <div class="mt-9 flex flex-wrap gap-3">
+            <a href="https://discord.gg" target="_blank" rel="noreferrer" class="rounded-lg bg-white px-6 py-3 text-sm font-bold text-black">Deploy via Discord</a>
+            <a href="#terminal" class="rounded-lg border border-line px-6 py-3 text-sm font-semibold text-slate-200">See Terminal</a>
+          </div>
+        </div>
+
+        <div class="rounded-2xl border border-white/10 bg-gradient-to-b from-white/10 to-white/5 p-6 backdrop-blur">
+          <p class="font-mono text-xs uppercase tracking-[0.22em] text-slate-300">Network Status</p>
+          <div class="mt-5 grid grid-cols-2 gap-3">
+            <div class="rounded-xl border border-line bg-surface p-4"><p class="font-display text-2xl">99.99%</p><p class="text-xs text-slate-400">Uptime</p></div>
+            <div class="rounded-xl border border-line bg-surface p-4"><p class="font-display text-2xl">&lt;20ms</p><p class="text-xs text-slate-400">Latency</p></div>
+            <div class="rounded-xl border border-line bg-surface p-4"><p class="font-display text-2xl">24/7</p><p class="text-xs text-slate-400">Support</p></div>
+            <div class="rounded-xl border border-line bg-surface p-4"><p class="font-display text-2xl">1-Click</p><p class="text-xs text-slate-400">Deploy</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="terminal" class="mx-auto w-[94%] max-w-7xl pb-14">
+        <div class="overflow-hidden rounded-2xl border border-white/10 bg-[#090c16] shadow-[0_30px_80px_rgba(0,0,0,0.65)]">
+          <div class="flex items-center justify-between border-b border-white/10 bg-white/[0.03] px-4 py-3">
+            <div class="flex items-center gap-2">
+              <span class="h-2.5 w-2.5 rounded-full bg-red-400"></span><span class="h-2.5 w-2.5 rounded-full bg-yellow-400"></span><span class="h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
+            </div>
+            <p class="font-mono text-xs text-slate-400">universal-cloud / deploy-terminal</p>
+            <span class="text-xs text-slate-500">LIVE</span>
+          </div>
+          <div class="grid gap-0 md:grid-cols-[1.2fr_.8fr]">
+            <pre class="overflow-x-auto p-5 font-mono text-xs leading-6 text-slate-300 md:text-sm"><span class="text-accent">$</span> uc login --token ********
+<span class="text-emerald-400">✓ Authenticated</span>
+<span class="text-accent">$</span> uc create minecraft --region us-east --ram 10G --storage 120G
+<span class="text-emerald-400">✓ Allocating compute node...</span>
+<span class="text-emerald-400">✓ Configuring DDoS protection...</span>
+<span class="text-emerald-400">✓ Mounting NVMe volumes...</span>
+<span class="text-primary">Server online:</span> mc-universal-042
+IP: play.universalcloud.host
+Ping: 16ms | Tick Rate: 20 TPS
+
+<span class="text-accent">$</span> uc monitor mc-universal-042 --live
+CPU 43% | RAM 52% | NET 17Mbps</pre>
+            <div class="border-l border-white/10 bg-[#070910] p-5">
+              <h3 class="font-display text-xl">Real-time Control</h3>
+              <p class="mt-2 text-sm text-slate-400">Manage, restart, backup, and scale from one panel.</p>
+              <ul class="mt-5 space-y-2 text-sm text-slate-300">
+                <li>• Instant start / stop</li>
+                <li>• Scheduled backups</li>
+                <li>• Modpack installer</li>
+                <li>• DDoS event feed</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="mx-auto w-[94%] max-w-7xl py-8">
+        <div class="grid gap-4 md:grid-cols-3">
+          <article class="rounded-2xl border border-line bg-surface p-6"><h3 class="font-display text-xl">High Clock CPUs</h3><p class="mt-2 text-slate-300">Built for high TPS and smooth gameplay even under heavy load.</p></article>
+          <article class="rounded-2xl border border-line bg-surface p-6"><h3 class="font-display text-xl">Global Regions</h3><p class="mt-2 text-slate-300">Deploy near your players across US and international nodes.</p></article>
+          <article class="rounded-2xl border border-line bg-surface p-6"><h3 class="font-display text-xl">Advanced Security</h3><p class="mt-2 text-slate-300">Layer-3/4 DDoS mitigation with automatic traffic filtering.</p></article>
+        </div>
+      </section>
+
+      <section id="pricing" class="mx-auto w-[94%] max-w-7xl py-16">
+        <h2 class="font-display text-3xl md:text-4xl">Simple plans</h2>
+        <div class="mt-7 grid gap-4 md:grid-cols-3">
+          <article class="rounded-2xl border border-line bg-surface p-6"><p class="text-slate-400">Starter</p><p class="mt-2 font-display text-4xl">$8<span class="text-base text-slate-400">/mo</span></p><button class="mt-5 w-full rounded-lg border border-line py-2 text-sm">Choose Starter</button></article>
+          <article class="rounded-2xl border border-primary/50 bg-gradient-to-b from-primary/15 to-surface p-6"><p class="text-primary">Most Popular</p><p class="mt-2 font-display text-4xl">$18<span class="text-base text-slate-300">/mo</span></p><a href="https://discord.gg" target="_blank" rel="noreferrer" class="mt-5 block w-full rounded-lg bg-white py-2 text-center text-sm font-semibold text-black">Deploy Pro</a></article>
+          <article class="rounded-2xl border border-line bg-surface p-6"><p class="text-slate-400">Enterprise</p><p class="mt-2 font-display text-4xl">$39<span class="text-base text-slate-400">/mo</span></p><button class="mt-5 w-full rounded-lg border border-line py-2 text-sm">Choose Enterprise</button></article>
+        </div>
+      </section>
+
+      <section id="faq" class="mx-auto w-[94%] max-w-7xl pb-16">
+        <h2 class="font-display text-3xl">FAQ</h2>
+        <div class="mt-6 grid gap-4 md:grid-cols-2">
+          <div class="rounded-xl border border-line bg-surface p-5"><h3 class="font-semibold">How fast is setup?</h3><p class="mt-2 text-sm text-slate-300">Most servers go live in under 60 seconds.</p></div>
+          <div class="rounded-xl border border-line bg-surface p-5"><h3 class="font-semibold">Where do I deploy now?</h3><p class="mt-2 text-sm text-slate-300">Use the Deploy buttons to join our Discord at discord.gg.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/10 py-6">
+      <div class="mx-auto flex w-[94%] max-w-7xl flex-wrap items-center justify-between gap-3 text-sm text-slate-400">
+        <p>© <span id="year"></span> Universal Cloud. All rights reserved.</p>
+        <p>Dark. Minimal. Fast.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
