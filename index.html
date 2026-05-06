@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universal Cloud - Premium Game Server Hosting</title>
+    <meta name="description" content="Universal Cloud: lightning-fast, DDoS-protected game server hosting with premium hardware." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bg: "#05070f",
+              surface: "#0c1120",
+              card: "#121a31",
+              line: "#222b4a",
+              primary: "#6d7dff",
+              cyan: "#3ce0ff"
+            },
+            fontFamily: {
+              sans: ["Inter", "system-ui", "sans-serif"],
+              display: ["Sora", "Inter", "sans-serif"]
+            },
+            boxShadow: {
+              glow: "0 0 0 1px rgba(109,125,255,.3), 0 20px 60px rgba(29,58,255,.35)"
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-bg text-slate-100 font-sans">
+    <div class="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_20%_0%,rgba(61,123,255,.25),transparent_30%),radial-gradient(circle_at_80%_10%,rgba(60,224,255,.18),transparent_25%),linear-gradient(#05070f,#05070f)]"></div>
+
+    <header class="sticky top-0 z-40 border-b border-line/70 bg-bg/80 backdrop-blur-xl">
+      <div class="mx-auto flex w-[92%] max-w-7xl items-center justify-between py-4">
+        <a href="#" class="font-display text-xl font-semibold tracking-wide">Universal<span class="text-primary">Cloud</span></a>
+        <nav class="hidden items-center gap-8 text-sm text-slate-300 md:flex">
+          <a href="#features" class="hover:text-white">Features</a>
+          <a href="#locations" class="hover:text-white">Locations</a>
+          <a href="#pricing" class="hover:text-white">Pricing</a>
+          <a href="#faq" class="hover:text-white">FAQ</a>
+        </nav>
+        <a href="#pricing" class="rounded-lg border border-primary/70 bg-primary/10 px-4 py-2 text-sm font-semibold text-indigo-200 hover:bg-primary/20">Deploy Server</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="mx-auto grid w-[92%] max-w-7xl gap-12 py-20 md:grid-cols-[1.2fr_.8fr] md:py-28">
+        <div>
+          <span class="inline-flex rounded-full border border-cyan/40 bg-cyan/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan">Next-Gen Infrastructure</span>
+          <h1 class="mt-6 font-display text-4xl font-bold leading-tight md:text-6xl">Built for <span class="text-primary">speed</span>.<br/>Optimized for <span class="text-cyan">uptime</span>.</h1>
+          <p class="mt-6 max-w-2xl text-lg text-slate-300">Launch premium game servers in seconds with high-frequency CPUs, NVMe storage, and enterprise-grade DDoS protection.</p>
+          <div class="mt-10 flex flex-wrap gap-4">
+            <a href="#pricing" class="rounded-lg bg-white px-6 py-3 text-sm font-bold text-slate-900">Start Hosting</a>
+            <a href="#features" class="rounded-lg border border-line px-6 py-3 text-sm font-semibold text-slate-200">Explore Features</a>
+          </div>
+          <div class="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            <div class="rounded-xl border border-line bg-surface p-4"><p class="font-display text-2xl">99.99%</p><p class="text-xs text-slate-400">Uptime SLA</p></div>
+            <div class="rounded-xl border border-line bg-surface p-4"><p class="font-display text-2xl">&lt;20ms</p><p class="text-xs text-slate-400">Avg Latency</p></div>
+            <div class="rounded-xl border border-line bg-surface p-4"><p class="font-display text-2xl">24/7</p><p class="text-xs text-slate-400">Live Support</p></div>
+            <div class="rounded-xl border border-line bg-surface p-4"><p class="font-display text-2xl">1-Click</p><p class="text-xs text-slate-400">Deployments</p></div>
+          </div>
+        </div>
+
+        <aside class="rounded-2xl border border-line bg-surface p-7 shadow-glow">
+          <h2 class="font-display text-2xl">Live Control Panel</h2>
+          <p class="mt-2 text-sm text-slate-400">Monitor usage and scale instantly.</p>
+          <div class="mt-6 space-y-5 text-sm">
+            <div>
+              <div class="mb-2 flex justify-between text-slate-300"><span>CPU</span><span>68%</span></div>
+              <div class="h-2 rounded-full bg-card"><div class="h-2 w-[68%] rounded-full bg-primary"></div></div>
+            </div>
+            <div>
+              <div class="mb-2 flex justify-between text-slate-300"><span>RAM</span><span>52%</span></div>
+              <div class="h-2 rounded-full bg-card"><div class="h-2 w-[52%] rounded-full bg-cyan"></div></div>
+            </div>
+            <div>
+              <div class="mb-2 flex justify-between text-slate-300"><span>Network</span><span>91%</span></div>
+              <div class="h-2 rounded-full bg-card"><div class="h-2 w-[91%] rounded-full bg-indigo-300"></div></div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="features" class="mx-auto w-[92%] max-w-7xl py-10">
+        <div class="mb-8 flex items-end justify-between gap-4">
+          <h2 class="font-display text-3xl md:text-4xl">Why teams choose Universal Cloud</h2>
+          <p class="max-w-md text-sm text-slate-400">All essentials for performance-focused communities.</p>
+        </div>
+        <div class="grid gap-4 md:grid-cols-3">
+          <article class="rounded-2xl border border-line bg-surface p-6"><h3 class="font-display text-xl">High-Frequency CPUs</h3><p class="mt-3 text-slate-300">Latest-generation processors tuned for stable tick rates.</p></article>
+          <article class="rounded-2xl border border-line bg-surface p-6"><h3 class="font-display text-xl">Global Edge Network</h3><p class="mt-3 text-slate-300">Multiple regions with smart routing for low ping gameplay.</p></article>
+          <article class="rounded-2xl border border-line bg-surface p-6"><h3 class="font-display text-xl">Advanced DDoS Shield</h3><p class="mt-3 text-slate-300">Automatic mitigation with real-time threat filtering.</p></article>
+        </div>
+      </section>
+
+      <section id="locations" class="mx-auto w-[92%] max-w-7xl py-16">
+        <div class="rounded-2xl border border-line bg-gradient-to-r from-surface to-card p-8 md:p-10">
+          <h2 class="font-display text-3xl">Global Locations</h2>
+          <p class="mt-3 max-w-2xl text-slate-300">Deploy close to your players with fast transit in North America, Europe, Asia-Pacific, and more.</p>
+          <div class="mt-6 grid gap-3 text-sm text-slate-200 sm:grid-cols-2 md:grid-cols-4">
+            <div class="rounded-lg border border-line bg-bg/50 p-3">New York, US</div><div class="rounded-lg border border-line bg-bg/50 p-3">Dallas, US</div><div class="rounded-lg border border-line bg-bg/50 p-3">Frankfurt, DE</div><div class="rounded-lg border border-line bg-bg/50 p-3">Singapore, SG</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="mx-auto w-[92%] max-w-7xl py-8">
+        <h2 class="font-display text-3xl md:text-4xl">Plans for every community size</h2>
+        <div class="mt-8 grid gap-4 md:grid-cols-3">
+          <article class="rounded-2xl border border-line bg-surface p-6"><p class="text-slate-400">Starter</p><p class="mt-2 font-display text-4xl">$8<span class="text-base text-slate-400">/mo</span></p><ul class="mt-5 space-y-2 text-sm text-slate-300"><li>4GB RAM</li><li>40GB NVMe</li><li>Daily backups</li></ul><button class="mt-6 w-full rounded-lg border border-line py-2">Choose Starter</button></article>
+          <article class="rounded-2xl border border-primary/50 bg-gradient-to-b from-primary/20 to-surface p-6"><p class="text-primary">Most Popular</p><p class="mt-2 font-display text-4xl">$18<span class="text-base text-slate-300">/mo</span></p><ul class="mt-5 space-y-2 text-sm text-slate-200"><li>10GB RAM</li><li>120GB NVMe</li><li>Priority support</li></ul><button class="mt-6 w-full rounded-lg bg-white py-2 font-semibold text-slate-900">Choose Pro</button></article>
+          <article class="rounded-2xl border border-line bg-surface p-6"><p class="text-slate-400">Enterprise</p><p class="mt-2 font-display text-4xl">$39<span class="text-base text-slate-400">/mo</span></p><ul class="mt-5 space-y-2 text-sm text-slate-300"><li>24GB RAM</li><li>Dedicated resources</li><li>Custom setup</li></ul><button class="mt-6 w-full rounded-lg border border-line py-2">Choose Enterprise</button></article>
+        </div>
+      </section>
+
+      <section id="faq" class="mx-auto w-[92%] max-w-7xl py-16">
+        <h2 class="font-display text-3xl">Frequently asked questions</h2>
+        <div class="mt-6 grid gap-4 md:grid-cols-2">
+          <div class="rounded-xl border border-line bg-surface p-5"><h3 class="font-semibold">How fast is provisioning?</h3><p class="mt-2 text-sm text-slate-300">Most servers are ready in less than 60 seconds.</p></div>
+          <div class="rounded-xl border border-line bg-surface p-5"><h3 class="font-semibold">Can I install mods/plugins?</h3><p class="mt-2 text-sm text-slate-300">Yes, full FTP and panel access are included on all plans.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-line py-6">
+      <div class="mx-auto flex w-[92%] max-w-7xl flex-wrap items-center justify-between gap-3 text-sm text-slate-400">
+        <p>© <span id="year"></span> Universal Cloud. All rights reserved.</p>
+        <p>Built for serious gaming communities.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
